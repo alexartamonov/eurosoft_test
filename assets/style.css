@@ -1,0 +1,178 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url("/assets/images/back.jpg");
+}
+
+.main {
+    width: 1028px;
+    height: 100%;
+
+    margin: auto;
+}
+
+.content {
+    background: #ffffff;
+    padding-bottom: 20px;
+}
+
+.header {
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+.header img {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+
+.header h1 {
+    display: inline-block;
+    color: #2980B9;
+    margin-top: 0;
+    margin-left: 25px;
+}
+
+.navigation {
+    background-color: #F7F7F9;;
+    background-color: #2980B9;
+}
+
+.nav-pills li a {
+    border-radius: 0px;
+    color: #ffffff;
+}
+
+.nav-pills li a:hover {
+    color: #2980B9;
+}
+
+.center {
+    display: table;
+    margin: auto;
+}
+
+.interval {
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #F7F7F9;
+    padding: 10px;
+    color: #8E8E90;
+}
+
+.image {
+
+    display: inline-block;
+    vertical-align:  top;
+    margin: 2px;
+}
+
+.image > form {
+    margin: 0px;
+}
+
+.imagelist {
+    padding: 25px;
+}
+
+.glyphimage {
+    padding: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 135px;
+    color: #2980B9;
+    overflow: hidden;
+    border: 1px solid #2980B9;
+    text-align: center;
+    font-size: 10px;
+}
+.glyphimage img{
+    width: 94px;
+    max-height: 100px;
+    overflow: hidden;
+    height: auto;
+    border: 1px solid #2980B9;
+}
+.glyphimage:hover {
+    background-color: #2980B9;
+    color: #ffffff;
+    border: 3px solid #2980B9;
+}
+
+.glyphimage .glyphicon {
+    cursor: inherit;
+    display: table;
+    margin: auto;
+    font-size: 35px;
+}
+
+.glyphupload {
+    font-size: 50px;
+    color: #2980B9;
+}
+
+.modal-content > img {
+    width: 100%;
+    height: auto;
+}
+
+.modaldata{
+    padding: 5px;
+}
+.modaldata .form-control{
+    margin-bottom: 30px;
+}
+.close {
+    position: absolute;
+    font-size: 25px;
+    color: #ffffff;
+    right: 10px;
+    top: 10px;
+}
+
+
+.file_upload {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em; /* example */
+    height: 2.5em; /* example */
+    line-height: 2em; /* the same as height */
+    width:300px;
+}
+
+.file_upload > button {
+    float: right;
+    width: 8em; /* example */
+    height: 100%
+}
+
+.file_upload > div {
+    padding-left: 1em /* example */
+}
+
+.file_upload input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(20);
+    letter-spacing: 10em; /* IE 9 fix */
+    -ms-transform: scale(20); /* IE 9 fix */
+    opacity: 0;
+    cursor: pointer
+}
